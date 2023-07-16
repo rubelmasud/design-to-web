@@ -1,29 +1,99 @@
-.logo img {
-    width: full;
-    height: 100px;
-}
-
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: #333;
-    color: #fff;
-    justify-content: space-between;
-    align-content: center;
+    align-items: center;
+    height: 75px;
+    background-color: rgba(182, 217, 217, 0.203);
+    padding: 0 30px;
 }
 
-.navbar-list {
+.logo {
     display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 70px;
+}
+
+.logo h3 {
+    color: rgb(15, 174, 174);
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
-.navbar-list li {
-    margin: 0 10px;
-}
-
-.navbar-list a {
-    color: #fff;
+ul li {
+    font-size: 15px;
+    color: gray;
+    padding: 10px 16px;
+    margin: 0 8px;
     text-decoration: none;
+    cursor: pointer;
+}
+
+.Featured {
+    color: rgb(15, 174, 174);
+    font-weight: 500;
+}
+
+.signUp-btn {
+    background-color: rgb(15, 174, 174);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: auto 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+@media screen and (max-width:780px) {
+
+    .navbar-list {
+        display: none;
+    }
+
+    .mobile-nav-links {
+        position: absolute;
+        display: block;
+        list-style: none;
+        left: 0;
+        top: 75px;
+        transition: all 0.5s ease-out;
+        width: 100%;
+        background-color: rgba(182, 217, 217, 0.203);
+    }
+
+    ul li {
+        padding: 12px;
+        text-align: center;
+        transition: all 0.5s ease;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+        color: white;
+        font-weight: 800;
+        position: absolute;
+        font-size: 30px;
+        right: 25px;
+        padding: 0 5px;
+        border-radius: 6px;
+        background-color: rgb(15, 174, 174);
+    }
+
+    .signUp-btn {
+        width: 25%;
+        text-align: center;
+        padding: 10px 0;
+        margin: 10px auto;
+    }
 }

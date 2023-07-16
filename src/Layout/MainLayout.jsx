@@ -2,7 +2,9 @@ import Home from "../Pages/Home/Home";
 
 const MainLayout = () => {
     return (
-        <Home></Home>
+        <div className="layout">
+            <Home></Home>
+        </div>
     );
 };
 
