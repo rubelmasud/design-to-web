@@ -1,0 +1,29 @@
+.logo img {
+    width: full;
+    height: 100px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.navbar-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-list li {
+    margin: 0 10px;
+}
+
+.navbar-list a {
+    color: #fff;
+    text-decoration: none;
+}
