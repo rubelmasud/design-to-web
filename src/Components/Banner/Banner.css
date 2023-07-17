@@ -51,14 +51,10 @@
     font-size: 16px;
 }
 
-/* --------------------icons------------------- */
 .Opportunities-icons {
     color: rgb(15, 174, 174);
     font-size: 25px;
 }
-
-
-/* ----------------banner-info end ------------------------ */
 
 .banner-img {
     position: relative;
@@ -102,10 +98,6 @@
     right: 1px;
     bottom: 150px;
 }
-
-/* ----------------------- banner img part end ------------------------- */
-
-/* ---------------------media query--------------------------*/
 
 @media screen and (max-width: 768px) {
     .banner {
@@ -154,7 +146,6 @@
         width: auto;
         margin: auto;
     }
-
 }
 
 @media screen and (max-width: 480px) {
@@ -195,5 +186,4 @@
         max-width: auto;
         max-height: 50%;
     }
-
 }
