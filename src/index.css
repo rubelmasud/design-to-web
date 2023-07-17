@@ -11,4 +11,6 @@ body {
     width: 1280px;
     margin: auto;
     font-family: 'Rubik', sans-serif;
+    background-color: rgba(182, 217, 217, 0.203);
+    padding: 0 30px;
 }

@@ -1,0 +1,53 @@
+.my-services {
+    position: absolute;
+    background: white;
+    width: 64%;
+    right: 0px;
+    bottom: -30px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20px;
+    z-index: 1;
+}
+
+.services-info {
+    text-align: center;
+}
+
+.services-info h2 {
+    color: rgb(15, 174, 174);
+    font-size: 2.5rem;
+}
+
+.services-info p {
+    color: rgb(103, 100, 100);
+}
+
+@media screen and (max-width: 768px) {
+    .my-services {
+        position: static;
+        width: 50%;
+    }
+
+    .services-info h2 {
+        font-size: 1.5rem;
+    }
+
+    .services-info p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .my-services {
+        width: 30%;
+    }
+
+    .services-info h2 {
+        font-size: 1rem;
+    }
+
+    .services-info p {
+        font-size: 10px;
+    }
+}

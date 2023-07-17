@@ -22,7 +22,7 @@ function Navbar() {
                 <li>Fasilities</li>
                 <li>Find Doctor</li>
                 <li>Contact</li>
-                <li className='signUp-btn'>Book Now</li>
+                <li className='book-now'>Book Now</li>
             </ul>
             <div onClick={() => setIsMobile(!isMobile)} className='mobile-menu-icon'>
                 {
